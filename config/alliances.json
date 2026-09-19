@@ -2,10 +2,10 @@
   "_comment": "Hand-maintained fields the MightPulse API cannot know. tag must match the in-game alliance abbreviation exactly — tags are case-sensitive. Power, member count, rank, top-10 floor and power bands are overwritten from the API by tools/build-data.js; everything here is kept.",
   "alliances": [
     {
-      "tag": "2KVG",
-      "name": "Two Thousand Vanguard",
+      "tag": "KZN",
+      "name": "Kaizen",
       "seats": 6,
-      "minPower": 32,
+      "minPower": 50,
       "status": "invite",
       "statusText": "Invitational only",
       "bt": "14:00 and 01:00 UTC",
@@ -50,19 +50,19 @@
           6
         ]
       ],
-      "crowns": 4
+      "crowns": 1
     },
     {
-      "tag": "VLR",
-      "name": "Valor Regnant",
-      "seats": 18,
-      "minPower": 21,
-      "status": "open",
-      "statusText": "Accepting now",
+      "tag": "D2F",
+      "name": "Down2Fuq",
+      "seats": 22,
+      "minPower": 50,
+      "status": "invite",
+      "statusText": "Invitational Only",
       "bt": "14:00 and 01:00 UTC",
       "rally": "6 leads / 40 join slots",
       "shift": "EU evenings",
-      "focus": "KvK prep scoring",
+      "focus": "Rally & KvK prep scoring",
       "discord": "Required",
       "spend": {
         "heavy": 12,
@@ -104,16 +104,16 @@
       "crowns": 1
     },
     {
-      "tag": "IRN",
-      "name": "Ironhold",
-      "seats": 21,
-      "minPower": 14,
+      "tag": "FFS",
+      "name": "FireStorm",
+      "seats": 19,
+      "minPower": 50,
       "status": "open",
       "statusText": "Accepting now",
-      "bt": "15:00 and 02:00 UTC",
+      "bt": "15:30 and 21:00 UTC",
       "rally": "5 leads / 40 join slots",
       "shift": "Americas",
-      "focus": "Bear Hunt and Championship",
+      "focus": "Rally & KvK Prep Points",
       "discord": "Encouraged",
       "spend": {
         "heavy": 6,
@@ -155,10 +155,10 @@
       "crowns": 1
     },
     {
-      "tag": "TSK",
-      "name": "Taskmasters",
-      "seats": 17,
-      "minPower": 0,
+      "tag": "LUX",
+      "name": "LuxuriousLight",
+      "seats": 19,
+      "minPower": 50,
       "status": "open",
       "statusText": "Accepting now",
       "bt": "16:00 and 03:00 UTC",
@@ -205,56 +205,6 @@
       ],
       "crowns": 0
     },
-    {
-      "tag": "OBL",
-      "name": "Obelisk",
-      "seats": 0,
-      "minPower": 0,
-      "status": "full",
-      "statusText": "Full — waitlist only",
-      "bt": "09:00 and 20:00 UTC",
-      "rally": "4 leads / 40 join slots",
-      "shift": "EU mornings",
-      "focus": "Sanctuary holds",
-      "discord": "Required",
-      "spend": {
-        "heavy": 5,
-        "mid": 34,
-        "f2p": 61
-      },
-      "bands": [
-        [
-          70,
-          999,
-          0
-        ],
-        [
-          45,
-          70,
-          2
-        ],
-        [
-          30,
-          45,
-          8
-        ],
-        [
-          20,
-          30,
-          22
-        ],
-        [
-          12,
-          20,
-          33
-        ],
-        [
-          0,
-          12,
-          35
-        ]
-      ],
-      "crowns": 0
     }
   ]
 }
