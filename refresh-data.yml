@@ -1,0 +1,39 @@
+# Refreshes data/kingdom.json from the MightPulse API and commits it.
+# Cloudflare Pages redeploys on the commit, so the site updates with no human involved.
+#
+# Setup: repo -> Settings -> Secrets and variables -> Actions -> New repository secret
+#   Name:  MIGHTPULSE_KEY
+#   Value: your kss_... key from https://api.mightpulse.com/
+name: Refresh kingdom data
+
+on:
+  schedule:
+    - cron: "0 5 * * *"      # 05:00 UTC daily, before EU evening play
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pull from MightPulse
+        env:
+          MIGHTPULSE_KEY: ${{ secrets.MIGHTPULSE_KEY }}
+          KINGDOM_ID: "2000"
+        run: node tools/build-data.js
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "kingdom2000-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/kingdom.json
+          git diff --staged --quiet || git commit -m "Refresh kingdom data $(date -u +%Y-%m-%d)"
+          git push

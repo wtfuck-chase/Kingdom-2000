@@ -1,0 +1,260 @@
+{
+  "_comment": "Hand-maintained fields the MightPulse API cannot know. tag must match the in-game alliance abbreviation exactly — tags are case-sensitive. Power, member count, rank, top-10 floor and power bands are overwritten from the API by tools/build-data.js; everything here is kept.",
+  "alliances": [
+    {
+      "tag": "2KVG",
+      "name": "Two Thousand Vanguard",
+      "seats": 6,
+      "minPower": 32,
+      "status": "invite",
+      "statusText": "Invitational only",
+      "bt": "14:00 and 01:00 UTC",
+      "rally": "8 leads / 40 join slots",
+      "shift": "Americas + APAC building",
+      "focus": "Castle and rally",
+      "discord": "Required",
+      "spend": {
+        "heavy": 22,
+        "mid": 43,
+        "f2p": 35
+      },
+      "bands": [
+        [
+          70,
+          999,
+          3
+        ],
+        [
+          45,
+          70,
+          11
+        ],
+        [
+          30,
+          45,
+          28
+        ],
+        [
+          20,
+          30,
+          32
+        ],
+        [
+          12,
+          20,
+          18
+        ],
+        [
+          0,
+          12,
+          6
+        ]
+      ],
+      "crowns": 4
+    },
+    {
+      "tag": "VLR",
+      "name": "Valor Regnant",
+      "seats": 18,
+      "minPower": 21,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "14:00 and 01:00 UTC",
+      "rally": "6 leads / 40 join slots",
+      "shift": "EU evenings",
+      "focus": "KvK prep scoring",
+      "discord": "Required",
+      "spend": {
+        "heavy": 12,
+        "mid": 46,
+        "f2p": 42
+      },
+      "bands": [
+        [
+          70,
+          999,
+          1
+        ],
+        [
+          45,
+          70,
+          5
+        ],
+        [
+          30,
+          45,
+          19
+        ],
+        [
+          20,
+          30,
+          31
+        ],
+        [
+          12,
+          20,
+          26
+        ],
+        [
+          0,
+          12,
+          12
+        ]
+      ],
+      "crowns": 1
+    },
+    {
+      "tag": "IRN",
+      "name": "Ironhold",
+      "seats": 21,
+      "minPower": 14,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "15:00 and 02:00 UTC",
+      "rally": "5 leads / 40 join slots",
+      "shift": "Americas",
+      "focus": "Bear Hunt and Championship",
+      "discord": "Encouraged",
+      "spend": {
+        "heavy": 6,
+        "mid": 38,
+        "f2p": 56
+      },
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          3
+        ],
+        [
+          30,
+          45,
+          12
+        ],
+        [
+          20,
+          30,
+          24
+        ],
+        [
+          12,
+          20,
+          31
+        ],
+        [
+          0,
+          12,
+          19
+        ]
+      ],
+      "crowns": 1
+    },
+    {
+      "tag": "TSK",
+      "name": "Taskmasters",
+      "seats": 17,
+      "minPower": 0,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "16:00 and 03:00 UTC",
+      "rally": "3 leads / 40 join slots",
+      "shift": "Mixed",
+      "focus": "Growth and farms",
+      "discord": "Optional",
+      "spend": {
+        "heavy": 2,
+        "mid": 21,
+        "f2p": 77
+      },
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          0
+        ],
+        [
+          30,
+          45,
+          4
+        ],
+        [
+          20,
+          30,
+          9
+        ],
+        [
+          12,
+          20,
+          25
+        ],
+        [
+          0,
+          12,
+          45
+        ]
+      ],
+      "crowns": 0
+    },
+    {
+      "tag": "OBL",
+      "name": "Obelisk",
+      "seats": 0,
+      "minPower": 0,
+      "status": "full",
+      "statusText": "Full — waitlist only",
+      "bt": "09:00 and 20:00 UTC",
+      "rally": "4 leads / 40 join slots",
+      "shift": "EU mornings",
+      "focus": "Sanctuary holds",
+      "discord": "Required",
+      "spend": {
+        "heavy": 5,
+        "mid": 34,
+        "f2p": 61
+      },
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          2
+        ],
+        [
+          30,
+          45,
+          8
+        ],
+        [
+          20,
+          30,
+          22
+        ],
+        [
+          12,
+          20,
+          33
+        ],
+        [
+          0,
+          12,
+          35
+        ]
+      ],
+      "crowns": 0
+    }
+  ]
+}

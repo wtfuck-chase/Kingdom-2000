@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-09-13T05:00:11.402Z",
+  "source": "MightPulse (https://mightpulse.com) — independent Kingshot fan site, not affiliated with Century Games",
+  "kingdom": {
+    "kid": 2000,
+    "ageDays": 413,
+    "openedOn": "2025-07-27",
+    "players": 1184,
+    "active7d": 868,
+    "active30d": 1021,
+    "allianceCount": 7,
+    "power": 241.6,
+    "powerRank": 312,
+    "activityRank": 188,
+    "floor100": 19.8
+  },
+  "leaderboard": [
+    {
+      "pos": 1,
+      "abbr": "2KVG",
+      "name": "Two Thousand Vanguard",
+      "power": 63.1
+    },
+    {
+      "pos": 2,
+      "abbr": "VLR",
+      "name": "Valor Regnant",
+      "power": 54.9
+    },
+    {
+      "pos": 3,
+      "abbr": "IRN",
+      "name": "Ironhold",
+      "power": 48.2
+    },
+    {
+      "pos": 4,
+      "abbr": "TSK",
+      "name": "Taskmasters",
+      "power": 30.7
+    },
+    {
+      "pos": 5,
+      "abbr": "OBL",
+      "name": "Obelisk",
+      "power": 27.9
+    }
+  ],
+  "alliances": [
+    {
+      "tag": "2KVG",
+      "name": "Two Thousand Vanguard",
+      "seats": 6,
+      "minPower": 32,
+      "status": "invite",
+      "statusText": "Invitational only",
+      "bt": "14:00 and 01:00 UTC",
+      "rally": "8 leads / 40 join slots",
+      "shift": "Americas + APAC building",
+      "spend": {
+        "heavy": 22,
+        "mid": 43,
+        "f2p": 35
+      },
+      "power": 63.1,
+      "members": 99,
+      "rank": 1,
+      "top10": 46.2,
+      "bands": [
+        [
+          70,
+          999,
+          4
+        ],
+        [
+          45,
+          70,
+          10
+        ],
+        [
+          30,
+          45,
+          29
+        ],
+        [
+          20,
+          30,
+          31
+        ],
+        [
+          12,
+          20,
+          19
+        ],
+        [
+          0,
+          12,
+          6
+        ]
+      ],
+      "live": true,
+      "crowns": 4
+    },
+    {
+      "tag": "VLR",
+      "name": "Valor Regnant",
+      "seats": 18,
+      "minPower": 21,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "14:00 and 01:00 UTC",
+      "rally": "6 leads / 40 join slots",
+      "shift": "EU evenings",
+      "spend": {
+        "heavy": 12,
+        "mid": 46,
+        "f2p": 42
+      },
+      "power": 54.9,
+      "members": 95,
+      "rank": 2,
+      "top10": 33.8,
+      "bands": [
+        [
+          70,
+          999,
+          1
+        ],
+        [
+          45,
+          70,
+          6
+        ],
+        [
+          30,
+          45,
+          19
+        ],
+        [
+          20,
+          30,
+          31
+        ],
+        [
+          12,
+          20,
+          26
+        ],
+        [
+          0,
+          12,
+          12
+        ]
+      ],
+      "live": true,
+      "crowns": 1
+    },
+    {
+      "tag": "IRN",
+      "name": "Ironhold",
+      "seats": 21,
+      "minPower": 14,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "15:00 and 02:00 UTC",
+      "rally": "5 leads / 40 join slots",
+      "shift": "Americas",
+      "spend": {
+        "heavy": 6,
+        "mid": 38,
+        "f2p": 56
+      },
+      "power": 48.2,
+      "members": 88,
+      "rank": 3,
+      "top10": 27.4,
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          3
+        ],
+        [
+          30,
+          45,
+          11
+        ],
+        [
+          20,
+          30,
+          25
+        ],
+        [
+          12,
+          20,
+          30
+        ],
+        [
+          0,
+          12,
+          19
+        ]
+      ],
+      "live": true,
+      "crowns": 1
+    },
+    {
+      "tag": "TSK",
+      "name": "Taskmasters",
+      "seats": 17,
+      "minPower": 0,
+      "status": "open",
+      "statusText": "Accepting now",
+      "bt": "16:00 and 03:00 UTC",
+      "rally": "3 leads / 40 join slots",
+      "shift": "Mixed",
+      "spend": {
+        "heavy": 2,
+        "mid": 21,
+        "f2p": 77
+      },
+      "power": 30.7,
+      "members": 84,
+      "rank": 4,
+      "top10": 18.3,
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          0
+        ],
+        [
+          30,
+          45,
+          5
+        ],
+        [
+          20,
+          30,
+          9
+        ],
+        [
+          12,
+          20,
+          25
+        ],
+        [
+          0,
+          12,
+          45
+        ]
+      ],
+      "live": true,
+      "crowns": 0
+    },
+    {
+      "tag": "OBL",
+      "name": "Obelisk",
+      "seats": 0,
+      "minPower": 0,
+      "status": "full",
+      "statusText": "Full — waitlist only",
+      "bt": "09:00 and 20:00 UTC",
+      "rally": "4 leads / 40 join slots",
+      "shift": "EU mornings",
+      "spend": {
+        "heavy": 5,
+        "mid": 34,
+        "f2p": 61
+      },
+      "power": 27.9,
+      "members": 100,
+      "rank": 5,
+      "top10": 19.1,
+      "bands": [
+        [
+          70,
+          999,
+          0
+        ],
+        [
+          45,
+          70,
+          2
+        ],
+        [
+          30,
+          45,
+          8
+        ],
+        [
+          20,
+          30,
+          22
+        ],
+        [
+          12,
+          20,
+          33
+        ],
+        [
+          0,
+          12,
+          35
+        ]
+      ],
+      "live": true,
+      "crowns": 0
+    }
+  ]
+}

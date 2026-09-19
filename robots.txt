@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kingdom2000.pages.dev/sitemap.xml
